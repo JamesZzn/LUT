@@ -1,0 +1,28 @@
+// common config param
+front_view_length: 1645 // unit in mm
+left_view_length: 819 // unit in mm
+right_view_length: 819 // unit in mm
+car_head_length: 900 // unit in mm
+front_blind_length: 0 // unit in mm
+fl_fusion_angle: 76 // unit in degree, front and left fusion angle with x axis
+fr_fusion_angle: 76 // unit in degree, front and right fusion angle with x axis
+parallel_range: 8 //unit pixel
+curve_range: 100  //unit pixel
+
+// junction 3 front view result size config param
+result_image_height: 448 // unit in pixel
+result_image_width: 512 // unit in pixel
+car_logo_rect_init_x: 103 // unit in pixel, car logo init x position, start form 0
+car_logo_rect_init_y: 278 // unit in pixel, car logo init y position, start form 0
+car_logo_rect_width: 306 // unit in pixel, car logo width
+car_logo_rect_height: 170 // unit in pixel, car logo height
+
+// junction 3 front view  static distance line config param
+is_static_line_exist: 1 // whether static distance line exist in 3-pass front junction view image
+static_line_dis_to_car[4]: 200 400 1000 2000 // distance line init, class-1, class-2, class-3 distance to car body, unit is mm
+static_line_length: 2500 // valid static distance line, unit is mm
+
+// junction 3 front view  dynamic distance line config param
+is_dynamic_line_exist: 1 // whether dynamic distance line exist in 3-pass front junction view image
+dynamic_line_count: 63 // how many dynamic line exists in 3-pass front junction view image, generally it is an odd number
+dynamic_line_length: 2500 // valid dynamic distance line, unit is mm

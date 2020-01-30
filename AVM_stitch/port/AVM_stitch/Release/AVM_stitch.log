@@ -1,0 +1,356 @@
+﻿生成启动时间为 2019/1/25 14:03:47。
+     1>项目“F:\T2移植版本\AVM_stitch - 副本\port\AVM_stitch\AVM_stitch.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(355,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\COMM\camera_model /I..\..\..\COMM\thirdparty /I..\..\..\COMM\reuse /I..\..\..\COMM\math /I..\..\source\AVM_stitch /I..\..\..\COMM\thirdparty\opencv /I..\..\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\COMM\camera_model\camera_model.cpp ..\..\..\COMM\reuse\image_process.cpp ..\..\..\COMM\reuse\vehicle_info.cpp ..\..\..\COMM\thirdparty\opencv\opencv.cpp ..\..\include\avm_interface.cpp ..\..\source\AVM_stitch\3D_licheng.cpp ..\..\source\AVM_stitch\avm_config.cpp ..\..\source\AVM_stitch\avm_load_parameter.cpp ..\..\source\AVM_stitch\avm_main_driver.cpp ..\..\source\AVM_stitch\avm_utility.cpp ..\..\source\AVM_stitch\draw_static_dynamic_line.cpp ..\..\source\AVM_stitch\fwrite_bin.cpp ..\..\source\AVM_stitch\generate_3_view_lut.cpp ..\..\source\AVM_stitch\generate_4_view_lut.cpp ..\..\source\AVM_stitch\generate_amba_table.cpp ..\..\source\AVM_stitch\handle_picture_major_process.cpp ..\..\source\AVM_stitch\resolve_data.cpp ..\..\source\AVM_stitch\single_view.cpp
+         camera_model.cpp
+         image_process.cpp
+         vehicle_info.cpp
+         opencv.cpp
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(567): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(680): warning C4244: “参数”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(1696): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(3561): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(3834): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(3835): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(3874): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(3875): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(3930): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(3931): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(3934): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4499): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4500): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4515): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4516): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4584): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4585): warning C4244: “=”: 从“int”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4620): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4651): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\thirdparty\opencv\opencv.cpp(4682): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+         avm_interface.cpp
+         3D_licheng.cpp
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(113): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(114): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(160): warning C4244: “=”: 从“Float64_t”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(161): warning C4244: “=”: 从“Float64_t”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(162): warning C4244: “=”: 从“Float64_t”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(167): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(672): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(682): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(696): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(701): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(708): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(739): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(749): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(759): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(764): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(770): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(801): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(811): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(819): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(839): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(845): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(862): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(872): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(883): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(903): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(909): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1014): warning C4244: “参数”: 从“Float64_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1021): warning C4244: “=”: 从“Float64_t”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1022): warning C4244: “=”: 从“Float64_t”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1023): warning C4244: “=”: 从“Float64_t”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1045): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1047): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1049): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1062): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1064): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1065): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1085): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1086): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1087): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1102): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1103): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1104): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1127): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1128): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1157): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1158): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>..\..\source\AVM_stitch\3D_licheng.cpp(1159): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+         avm_config.cpp
+         avm_load_parameter.cpp
+     1>..\..\source\AVM_stitch\avm_load_parameter.cpp(387): warning C4101: “i”: 未引用的局部变量
+     1>..\..\source\AVM_stitch\avm_load_parameter.cpp(764): warning C4244: “=”: 从“Float32_t”转换到“int”，可能丢失数据
+     1>..\..\source\AVM_stitch\avm_load_parameter.cpp(767): warning C4244: “=”: 从“Float32_t”转换到“int”，可能丢失数据
+     1>..\..\source\AVM_stitch\avm_load_parameter.cpp(890): warning C4244: “=”: 从“Float32_t”转换到“int”，可能丢失数据
+         avm_main_driver.cpp
+         avm_utility.cpp
+         draw_static_dynamic_line.cpp
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(40): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(41): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(52): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(53): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(87): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(88): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(94): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(96): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(122): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(125): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(128): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(305): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(307): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(309): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(311): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(313): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(314): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(343): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(347): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(356): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(357): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(364): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(370): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(395): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(397): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(418): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(421): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(429): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(430): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(436): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(708): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(710): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(715): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(717): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(742): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(743): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(766): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(769): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(777): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(784): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(860): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(862): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(864): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(866): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(870): warning C4305: “初始化”: 从“double”到“Float32_t”截断
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(890): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(891): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(910): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(913): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(921): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(928): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(943): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(944): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(963): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(966): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(974): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(981): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1047): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1049): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1054): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1056): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1288): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1289): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1293): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1453): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1454): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1458): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1476): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1477): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1481): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1499): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1500): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1504): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1525): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1526): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1530): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1549): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1550): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1554): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1633): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1707): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1791): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1792): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1798): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1799): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1825): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1826): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1830): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1849): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1850): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1854): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1855): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1880): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1881): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1885): warning C4309: “=”: 截断常量值
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1936): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1937): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\draw_static_dynamic_line.cpp(1946): warning C4101: “image_path”: 未引用的局部变量
+         fwrite_bin.cpp
+         generate_3_view_lut.cpp
+     1>..\..\source\AVM_stitch\generate_3_view_lut.cpp(366): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_3_view_lut.cpp(383): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_3_view_lut.cpp(187): warning C4101: “weight_Float32_t”: 未引用的局部变量
+     1>..\..\source\AVM_stitch\generate_3_view_lut.cpp(209): warning C4101: “image_point”: 未引用的局部变量
+     1>..\..\source\AVM_stitch\generate_3_view_lut.cpp(501): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_3_view_lut.cpp(516): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_3_view_lut.cpp(888): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_3_view_lut.cpp(904): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+         generate_4_view_lut.cpp
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(130): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(132): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(137): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(208): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(210): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(213): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(309): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(311): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(316): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(395): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(397): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(402): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(1217): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(1232): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_4_view_lut.cpp(1146): warning C4101: “camera_coordinate”: 未引用的局部变量
+         generate_amba_table.cpp
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(928): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(929): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(930): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1295): warning C4101: “image_amplify”: 未引用的局部变量
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1002): warning C4101: “lut_path”: 未引用的局部变量
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1349): warning C4101: “image_amplify”: 未引用的局部变量
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1795): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1796): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1827): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1828): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1858): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1859): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1887): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(1888): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(2019): warning C4101: “image_amplify”: 未引用的局部变量
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(2073): warning C4101: “image_amplify”: 未引用的局部变量
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(2335): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\generate_amba_table.cpp(2336): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+         handle_picture_major_process.cpp
+         resolve_data.cpp
+     1>..\..\source\AVM_stitch\resolve_data.cpp(121): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(157): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(158): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(159): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(202): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(203): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(204): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(248): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(249): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(250): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(1067): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(1323): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(1495): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\resolve_data.cpp(1612): warning C4018: “<”: 有符号/无符号不匹配
+         single_view.cpp
+     1>..\..\source\AVM_stitch\single_view.cpp(135): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(136): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(145): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(146): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(156): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(158): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(159): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(163): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(164): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(195): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(198): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(200): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(291): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(300): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(313): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(316): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(322): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(361): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(362): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(364): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(368): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(369): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(371): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(628): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(629): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(631): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(632): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(633): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(654): warning C4244: “=”: 从“Float64_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(655): warning C4244: “=”: 从“Float64_t”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(748): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(749): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(750): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(757): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(758): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(761): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(763): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(764): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(784): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(788): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(791): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(794): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(797): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(799): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(895): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(900): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(995): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(997): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1002): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1004): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1236): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1300): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1302): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1304): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1307): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1390): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1398): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1475): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\source\AVM_stitch\single_view.cpp(1515): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\COMM\camera_model /I..\..\..\COMM\thirdparty /I..\..\..\COMM\reuse /I..\..\..\COMM\math /I..\..\source\AVM_stitch /I..\..\..\COMM\thirdparty\opencv /I..\..\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\COMM\math\math_common.c
+         math_common.c
+     1>..\..\..\COMM\math\math_common.c(460): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(461): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(462): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(498): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(499): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(653): warning C4244: “+=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(663): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(695): warning C4244: “+=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(705): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(733): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(784): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(842): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(844): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(883): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(884): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(886): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(899): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(914): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>..\..\..\COMM\math\math_common.c(918): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\T2移植版本\AVM_stitch - 副本\port\AVM_stitch\Release\AVM_stitch.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\T2移植版本\AVM_stitch - 副本\port\AVM_stitch\Release\AVM_stitch.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\T2移植版本\AVM_stitch - 副本\port\AVM_stitch\Release\AVM_stitch.lib" /MACHINE:X86 /SAFESEH Release\camera_model.obj
+         Release\math_common.obj
+         Release\image_process.obj
+         Release\vehicle_info.obj
+         Release\opencv.obj
+         Release\avm_interface.obj
+         Release\3D_licheng.obj
+         Release\avm_config.obj
+         Release\avm_load_parameter.obj
+         Release\avm_main_driver.obj
+         Release\avm_utility.obj
+         Release\draw_static_dynamic_line.obj
+         Release\fwrite_bin.obj
+         Release\generate_3_view_lut.obj
+         Release\generate_4_view_lut.obj
+         Release\generate_amba_table.obj
+         Release\handle_picture_major_process.obj
+         Release\resolve_data.obj
+         Release\single_view.obj
+         正在生成代码
+     1>f:\t2移植版本\avm_stitch - 副本\source\avm_stitch\generate_4_view_lut.cpp(478): warning C4715: “calculate_4_view_weight_curve”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         AVM_stitch.vcxproj -> F:\T2移植版本\AVM_stitch - 副本\port\AVM_stitch\Release\AVM_stitch.exe
+     1>已完成生成项目“F:\T2移植版本\AVM_stitch - 副本\port\AVM_stitch\AVM_stitch.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.14

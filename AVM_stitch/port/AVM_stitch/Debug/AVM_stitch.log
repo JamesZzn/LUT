@@ -1,0 +1,129 @@
+﻿生成启动时间为 2019/3/4 20:53:39。
+     1>项目“C:\Users\intesight\Desktop\工作交接工程\S32V工程\AVM_stitch - 副本\port\AVM_stitch\AVM_stitch.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(355,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\COMM\camera_model /I..\..\..\COMM\thirdparty /I..\..\..\COMM\reuse /I..\..\..\COMM\math /I..\..\source\AVM_stitch /I..\..\..\COMM\thirdparty\opencv /I..\..\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\AVM_stitch\draw_static_dynamic_line.cpp
+         draw_static_dynamic_line.cpp
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(40): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(41): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(52): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(53): warning C4244: “=”: 从“Int32_t”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(87): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(88): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(94): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(96): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(122): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(125): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(128): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(305): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(307): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(309): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(311): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(313): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(314): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(343): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(347): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(356): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(357): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(364): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(370): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(395): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(397): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(418): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(421): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(429): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(430): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(436): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(708): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(710): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(715): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(717): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(742): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(743): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(766): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(769): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(777): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(784): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(860): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(862): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(864): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(866): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(870): warning C4305: “初始化”: 从“double”到“Float32_t”截断
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(890): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(891): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(910): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(913): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(921): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(928): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(943): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(944): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(963): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(966): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(974): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(981): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1047): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1049): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1054): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1056): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1288): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1289): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1293): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1443): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1444): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1448): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1466): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1467): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1471): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1489): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1490): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1494): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1515): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1516): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1520): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1539): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1540): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1544): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1623): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1697): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1781): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1782): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1788): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1789): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1815): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1816): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1820): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1839): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1840): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1844): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1845): warning C4244: “=”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1870): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1871): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1875): warning C4309: “=”: 截断常量值
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1926): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+     1>c:\users\intesight\desktop\工作交接工程\s32v工程\avm_stitch - 副本\source\avm_stitch\draw_static_dynamic_line.cpp(1927): warning C4244: “初始化”: 从“double”转换到“Float32_t”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\intesight\Desktop\工作交接工程\S32V工程\AVM_stitch - 副本\port\AVM_stitch\Debug\AVM_stitch.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\intesight\Desktop\工作交接工程\S32V工程\AVM_stitch - 副本\port\AVM_stitch\Debug\AVM_stitch.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\intesight\Desktop\工作交接工程\S32V工程\AVM_stitch - 副本\port\AVM_stitch\Debug\AVM_stitch.lib" /MACHINE:X86 Debug\camera_model.obj
+         Debug\math_common.obj
+         Debug\image_process.obj
+         Debug\vehicle_info.obj
+         Debug\opencv.obj
+         Debug\avm_interface.obj
+         Debug\3D_licheng.obj
+         Debug\avm_config.obj
+         Debug\avm_load_parameter.obj
+         Debug\avm_main_driver.obj
+         Debug\avm_utility.obj
+         Debug\draw_static_dynamic_line.obj
+         Debug\fwrite_bin.obj
+         Debug\generate_3_view_lut.obj
+         Debug\generate_4_view_lut.obj
+         Debug\generate_amba_table.obj
+         Debug\handle_picture_major_process.obj
+         Debug\resolve_data.obj
+         Debug\single_view.obj
+         AVM_stitch.vcxproj -> C:\Users\intesight\Desktop\工作交接工程\S32V工程\AVM_stitch - 副本\port\AVM_stitch\Debug\AVM_stitch.exe
+     1>已完成生成项目“C:\Users\intesight\Desktop\工作交接工程\S32V工程\AVM_stitch - 副本\port\AVM_stitch\AVM_stitch.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.26

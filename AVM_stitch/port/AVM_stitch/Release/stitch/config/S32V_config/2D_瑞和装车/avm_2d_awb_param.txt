@@ -1,0 +1,21 @@
+front_view_length: 2500 // unit in mm
+rear_view_length: 2500 // unit in mm
+left_view_length: 2000 // unit in mm
+right_view_length: 2000 // unit in mm
+front_blind_length: 150 // unit in mm
+rear_blind_length: 200 // unit in mm
+fl_fusion_angle: 45 // unit in degree, front and left fusion angle with x axis
+fr_fusion_angle: 45 // unit in degree, front and right fusion angle with x axis
+rl_fusion_angle: 45 // unit in degree, rear and left fusion angle with x axis
+rr_fusion_angle: 45 // unit in degree, rear and right fusion angle with x axis
+fl_fusion_range: 20 // unit in degree, front and left fusion range
+fr_fusion_range: 20 // unit in degree, front and right fusion range
+rl_fusion_range: 20 // unit in degree, rear and left fusion range
+rr_fusion_range: 20 // unit in degree, rear and right fusion range
+
+result_image_height_awb: 800 // unit in pixel
+result_image_width_awb: 600 // unit in pixel
+car_logo_rect_awb_init_x: 100 // unit in pixel, car logo init x position, start form 0
+car_logo_rect_awb_init_y: 100 // unit in pixel, car logo init y position, start form 0
+car_logo_rect_awb_width: 100 // unit in pixel, car logo width
+car_logo_rect_awb_height: 200 // unit in pixel, car logo height

@@ -1,0 +1,13 @@
+front_view_length: 9000 // unit in mm
+rear_view_length: 9000 // unit in mm
+left_view_length: 9077 // unit in mm 1220 
+right_view_length: 9077 // unit in mm1220 
+front_blind_length: 300 // unit in mm
+rear_blind_length: 200 // unit in mm
+vehilce_length: 4744 //
+vehilce_width: 1900 //
+car_logo_rect_init_x: 366
+car_logo_rect_init_y: 427
+car_logo_rect_width: 76
+car_logo_rect_height: 225
+70 

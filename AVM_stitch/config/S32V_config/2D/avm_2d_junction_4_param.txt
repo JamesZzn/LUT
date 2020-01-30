@@ -1,0 +1,49 @@
+// load config parameters
+front_view_length: 3001 // unit in mm
+rear_view_length: 3001 // unit in mm
+left_view_length: 3078 // unit in mm 1220 
+right_view_length: 3078 // unit in mm1220 
+front_blind_length: 300 // unit in mm
+rear_blind_length: 200 // unit in mm
+fl_fusion_angle: 46 // unit in degree, front and left fusion angle with x axis
+fr_fusion_angle: 45 // unit in degree, front and right fusion angle with x axis
+rl_fusion_angle: 45 // unit in degree, rear and left fusion angle with x axis
+rr_fusion_angle: 45 // unit in degree, rear and right fusion angle with x axis
+parallel_range: 116 //unit pixel
+curve_range: 92  //unit pixel
+
+// load small junction view result config parameters
+result_image_height: 1080//704
+result_image_width: 810 //448
+car_logo_rect_init_x: 313 //
+car_logo_rect_init_y: 305 //
+car_logo_rect_width: 184 //
+car_logo_rect_height: 470 //
+
+// load big junction view result config parameters
+result_image_height: 1080//704
+result_image_width: 810 //448
+car_logo_rect_init_x: 313 //
+car_logo_rect_init_y: 305 //
+car_logo_rect_width: 184 //
+car_logo_rect_height: 470 //
+
+// load small junction 4 pass view static distance line config parameters
+is_static_line_exist: 1 // 
+static_line_dis_to_car[4]: 200 400 1000 2000 // 
+static_line_length: 2500 //
+
+// load small junction 4 pass view dynamic distance line config parameters
+is_dynamic_line_exist: 1 //
+dynamic_line_count: 63 //
+dynamic_line_length: 2500 // 
+
+// load big junction 4 pass view static distance line config parameters
+is_static_line_exist: 1 // 
+static_line_dis_to_car[4]: 200 400 1000 2000 // 
+static_line_length: 2500 //
+
+// load big junction 4 pass view dynamic distance line config parameters
+is_dynamic_line_exist: 1 //
+dynamic_line_count: 63 //
+dynamic_line_length: 3500 //

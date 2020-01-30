@@ -1,0 +1,31 @@
+// front common config param
+result_image_height: 448 // front single view image height, unit is pixel
+result_image_width:  704 // front single view image width, unit is pixel
+single_view_expand_type: 1 // 0:crop_srouce_image  1:plane_expand  2:box_expand
+
+// crop source image config parameters, one of crop/plane/box expand type must be chose
+crop_rect:  50 50 900 900 // rect_init_x, rect_init_y, rect_width, rect_height, unit is pixel
+rect_roll_angle: 0 // anti-clockwise direction is positive, unit is degree
+
+// plane expand image config parameters
+plane_expand_trans_x: 0 // the translation value of plane_expand image in horizontal direction, unit is pixel
+plane_expand_trans_y: 0 // the translation value of plane_expand image in vertical direction, unit is pixel
+plane_expand_fov_h:  111 // the kept field of view of horizontal direction in plane expand image, unit is degree
+plane_expand_fov_v: 86 // the kept field of view of vertical direction in plane expand image, unit is degree
+
+// box expand image config parameters
+box_center_width: 140 // box expand image center part width, unit is pixel
+box_expand_trans_y: 20 // box expand image translation in y direction, unit is pixel
+box_expand_fov_center_h: 28.66 // box horizontal center part fov in camera coordinate system, unit is degree
+box_expand_fov_side_h: 70.66 // box horizontal side part fov in camera coordinate system, unit is degree
+box_expand_fov_v: 86.66 // box vertical fov in camera coordinate system, unit is degree
+
+//single rear view static distance related config parameters
+is_static_line_exist: 1 // whether static distance line exist
+static_line_dis_to_car[4]: 435 1000 2000 2000 // distance line init, class-1, class-2, class-3 distance to car body, unit is mm
+static_line_length: 2500 // valid static distance line, unit is mm
+
+//single rear view dynamic distance related config parameters
+is_dynamic_line_exist: 1 // whether dynamic distance line exist
+dynamic_line_count: 31 // how many dynamic line exists, generally it is an odd number
+dynamic_line_length: 3000 // valid dynamic distance line, unit is mm

@@ -1,0 +1,148 @@
+
+
+#if 1
+/**************plane_front_rear_single_view***********************/
+/*
+* Function Name:				plane_front_rear_single_view
+* Function Function:			plane_front_rear_single_view
+* Input:
+*       p_avm_param;
+*		cam_flag;					 this is picture's flag is front or back
+* Note:
+*     the interface function should be called at the beginning of this module
+* Revision:
+*     Create by Cheng.Li on 2018/1/30.
+*/
+AVM_Error_Code_E  column_world_coord_front_rear_single_view(IN P_Avm_Param_S p_avm_param, IN  int cam_flag)
+{
+	AVM_Error_Code_E ret = ERROR_NONE;
+	Front_Rear_Single_View_Param_S single_view_param;
+	UInt32_t* p_lut = NULL;
+	Int32_t is_front_cam;
+	UInt32_t camera_id;
+	Float32_t z_up_down;
+	if (cam_flag == _1_VIEW_FRONT)
+	{
+		single_view_param = p_avm_param->p_avm_config_param
+			->avm_single_view_param.front_single_view_param;
+		p_lut = p_avm_param->p_avm_lut->p_lut_single_view_front;
+		is_front_cam = 1;
+		camera_id = CAM_FRONT;
+		z_up_down = single_view_param.plane_expand_param.trans_y;
+	}
+	if (cam_flag == _1_VIEW_REAR)
+	{
+		single_view_param = p_avm_param->p_avm_config_param
+			->avm_single_view_param.rear_single_view_param;
+		p_lut = p_avm_param->p_avm_lut->p_lut_single_view_rear;
+		is_front_cam = -1;
+		camera_id = CAM_REAR;
+		z_up_down = single_view_param.plane_expand_param.trans_y;
+	}
+	if (cam_flag == _1_VIEW_RIGHT)//右的使用前的配置参数
+	{
+		single_view_param = p_avm_param->p_avm_config_param
+			->avm_single_view_param.front_single_view_param;
+		p_lut = p_avm_param->p_avm_lut->p_lut_single_view_front;
+		is_front_cam = -1;
+		camera_id = CAM_RIGHT;
+	}
+	single_view_param.plane_expand_param.fov_h = 160;
+	single_view_param.plane_expand_param.fov_v = 120;
+	z_up_down = z_up_down - 300;
+	Float32_t fov_h = (single_view_param.plane_expand_param.fov_h*PI) / 180.0;
+	Float32_t focal_length = 1000; // unit is mm
+	Float32_t fov_h1 = (Float32_t)(single_view_param.plane_expand_param.fov_h*3.14) / 180.0;
+	Float32_t fov_v = (single_view_param.plane_expand_param.fov_v*PI) / 180;
+	Int32_t result_width = single_view_param.result_image_width;
+	Int32_t result_height = single_view_param.result_image_height;
+	// 虚拟展开图中每个像素在高宽方向所代表的实际距离
+	Float32_t	mm_per_pixel_h = focal_length * tan(fov_h * 0.5) * 2 / result_width;
+	Float32_t  mm_per_pixel_v = focal_length * tan(fov_v * 0.5) * 2 / result_height;
+	Float32_t pose_t_0[3];
+	Float32_t pose_t[3];
+	Float32_t inv_pose[3];
+
+	for (int i = 3; i < 6; i++)
+	{
+		inv_pose[i - 3] = p_avm_param->p_avm_config_param
+			->camera_model[camera_id].camera_model_ext.inv_pose[i];
+	}
+	p_avm_param->p_avm_config_param->camera_model[camera_id].camera_model_ext.inv_R;
+	Mat_Mul_Vec_3by3(pose_t_0, p_avm_param->p_avm_config_param
+		->camera_model[camera_id].camera_model_ext.R, inv_pose);
+	pose_t[0] = -pose_t_0[0];
+	pose_t[1] = -pose_t_0[1];
+	pose_t[2] = -pose_t_0[2];//相机在世界坐标系的位置
+	Float32_t pitch_angle;//此处配置相机上下俯仰角
+	if (cam_flag == _1_VIEW_FRONT)
+	{
+		pitch_angle = (Float32_t)(0 * PI) / 180;//此处配置相机上下俯仰角16 
+
+	}
+	if (cam_flag == _1_VIEW_REAR)
+	{
+		pitch_angle = (Float32_t)(0 * PI) / 180;//此处配置相机上下俯仰角28
+	}
+	if (cam_flag == _1_VIEW_RIGHT)
+	{
+		pitch_angle = (0 * PI) / 180;//此处配置相机上下俯仰角
+	}
+	Float32_t init_world_coord_x = pose_t[0] - is_front_cam
+		* mm_per_pixel_h * result_width * 0.5;
+	Float32_t init_world_coord_y = pose_t[1] + is_front_cam
+		* (focal_length * cos(pitch_angle)
+		+ mm_per_pixel_v * result_height * 0.5 * sin(pitch_angle));
+	Float32_t init_world_coord_z = pose_t[2] - focal_length * sin(pitch_angle)
+		+ mm_per_pixel_v * result_height * 0.5 * cos(pitch_angle) + z_up_down;
+	Float32_t delta_x = mm_per_pixel_h;
+	Float32_t delta_y = mm_per_pixel_v * sin(pitch_angle);
+	Float32_t delta_z = mm_per_pixel_v * cos(pitch_angle);
+	Float32_t world_coordinate[3];
+	Float32_t image_point[2];
+
+	Float32_t centre_x = pose_t[0], centre_y = pose_t[1], centre_z = pose_t[2], radius = 1000;
+	init_world_coord_x = -radius*sin(fov_h * 0.5) - pose_t[0]-1800;
+	init_world_coord_y = -radius*cos(fov_v * 0.5) + pose_t[1];
+
+	Float32_t d_angle = fov_h / single_view_param.result_image_width;
+
+
+	Float32_t centre_rotate_coordinate[3];
+	for (int i = 0; i < single_view_param.result_image_height; i++)
+	{
+		centre_rotate_coordinate[0] = centre_x;
+		centre_rotate_coordinate[1] = centre_y;
+
+
+		for (int j = 0; j < single_view_param.result_image_width; j++)
+		{
+
+
+
+
+			world_coordinate[0] = (init_world_coord_x - centre_rotate_coordinate[0])*cos(j*d_angle) //坐标旋转公式
+				- (init_world_coord_y - centre_rotate_coordinate[1])*sin(j*d_angle)
+				+ centre_rotate_coordinate[0];///is x
+			world_coordinate[1] = (init_world_coord_x - centre_rotate_coordinate[0])*sin(j*d_angle)
+				+ (init_world_coord_y - centre_rotate_coordinate[1])*cos(j*d_angle)
+				+ centre_rotate_coordinate[1];//is y
+
+
+
+			world_coordinate[2] = init_world_coord_z - i * delta_z;
+			world_coordinate_to_pic_coordinate(camera_id,
+				world_coordinate, image_point, p_avm_param);//0 i
+			UInt32_t  shift_altogether
+				= i*single_view_param.result_image_width * 2 + j * 2;
+			/*ret=single_view_zip_data(shift_altogether,
+			image_point, p_lut, camera_id);*/
+			zip_data_new(shift_altogether, image_point, 1,
+				p_lut, NULL, NULL, p_avm_param);//为了代码重用，单视图即使没有融合权重也使用四路全景存储表方式用不到的存储0
+			CHECK_ERROR(ret);
+		}
+	}
+	return ret;
+}
+#endif
+

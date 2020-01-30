@@ -1,0 +1,12 @@
+vehilce_length: 4750 //
+vehilce_width: 1774 //
+wheel_base: 2770 //
+front_overhang_length: 880 //
+rear_overhang_length: 890 //
+front_wheel_tread: 1700 //
+rear_wheel_tread: 1720 //
+is_car_logo_fixed: //
+car_logo_rect_x: 100 //
+car_logo_rect_y: 100 //
+car_logo_rect_width: 100 //
+car_logo_rect_height: 100 //

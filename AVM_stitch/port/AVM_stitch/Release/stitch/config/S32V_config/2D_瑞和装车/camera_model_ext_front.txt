@@ -1,0 +1,16 @@
+#the Euler angle and translation vector of camera in vehicle coordinate system
+
+-1.594479  -0.013655  0.012204  14.184630  2337.045881  811.096697  
+
+#the rotation matrix from camera coordinate system to world coordinate system
+
+0.999832  0.013939  -0.011877  0.012202  -0.023512  0.999649  0.013655  -0.999626  -0.023678  
+
+#the vehicle coordinate system's Euler angle and translation in camera coordinate system
+
+1.594479  0.011877  0.013941  -53.775094  865.545049  -2316.851854  
+
+#the rotation matrix from vehicle coordinate system to camera coordinate system
+
+0.999832  0.012202  0.013655  0.013939  -0.023512  -0.999626  -0.011877  0.999649  -0.023678  
+

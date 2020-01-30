@@ -1,0 +1,15 @@
+ballCenter: 25000
+circleRadius: 6000
+newObserLoc: -4500 3240 3600
+pitchAngle: 56
+rollAngle: 125
+newFocal: 4
+dstSize: 720 450
+horiFov: 84
+magScaleVert: 1.2
+magScaleHori: 1.6
+upperLimit: 250
+fusionLoc: 45 135 225 315
+fusionAngle: 10 5 10 10
+carUpLeft: -920 2350
+carDownRight: 920 -2350
